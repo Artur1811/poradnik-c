@@ -1,0 +1,104 @@
+﻿<!doctype html>
+<html lang="pl">
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="style.css">
+   <title>Programowanie w języku C i pliki nagłówkowe języka</title>
+   <link rel="stylesheet" href="edge://resources/css/md_colors.css">
+   <link rel="stylesheet" href="edge://resources/css/text_defaults_md.css">
+   <link rel="stylesheet" href="index.css">
+   <meta name="Author" content="Artur Buczek">
+   <meta name="Description" content="Programowanie w języku C przekazane w możliwie przyjazny sposób, bez jakichkolwiek niejasności, będącego wynikiem własnych doświadczeń i przemyśleń a nie powtarzaniu zdań innych osób.">
+   <meta name="Keywords" content="Programowanie w C, Pliki nagłówkowe języka C, stdio.h, stdlib.h, string.h, math.h, limits.h, conio.h, ctype.h, errno.h, time.h">
+   <!-- Enable error-reporting -->	
+   <script src="pdf-error-reporting.js"></script>
+   <style>
+      a:link, a:visited { color: Blue; }
+      a:hover, a:active { color: BlueViolet; text-decoration: none; font-size: 120%; }
+   </style>
+</head>
+
+   <body>
+
+      <div class="top">
+         <h1>Artur Buczek prezentuje<br/>Programowanie w 'C' środowiska 'Dev C++'</h1>
+      </div>
+
+      <div class="menu">
+         <a href="omnie.html">O mnie</a>
+      </div>
+
+
+      <p>Chciałbym się tutaj podzielić własnymi doświadczeniami na mojej drodze nauki programowania. Przede wszystkim drażnią mnie powtarzane zwroty, niewiele mówiące slogany środowiska programistycznego tak, jakby nie wystarczył potoczny język polski dla określenia operacji, jakich dokonuje każdy komputerowy program.
+      <br>
+      Wyjątek stanowią tu takie słowa jak <i>pointer</i> i <i>header</i> i chociaż pasują do nich określenia <i>wskaźnik</i> i <i>plik nagłówkowy</i> to trudno mi się do nich przyzwyczaić siedząc bez przerwy w literaturze angielskiej.
+      <br>
+      Ponad 90% czasu zajęło mi zastanawianie się jak najbardziej prosto a zarazem absolutnie jasno przedstawić tematy, aby każde zdanie miało odpowiednik w kodzie do natychmiastowej weryfikacji. Sam ocenisz, czy mi się to udało.
+      <br><br>
+
+      Ograniczyłem się tu do <b>podstawowego środowiska 'Dev C++'</b> a więc nie ma tu nic z grafiki, która najbardziej mnie bawi a którą doświadczam w 'Turbo C++'.
+      <br><br>
+
+      Niniejszą prezentację podzieliłem na trzy części:
+      <br>
+      - Krótki przewodnik po 'C' z kolejnością tematów <i>Turbo C++ User's Guide</i>.
+      <br>
+      - Zbiorcze tablice języka 'C' czyli wszystko, co się da usystematyzować: podzielić i stopniować.
+      <br>
+      - Najważniejsze pliki nagłówkowe, tzw. <i>headers</i> z ich najbardziej używanymi definicjami, przede wszystkim funkcji.
+      </p>
+      <br><hr><br>
+
+      <div style="background: LightBlue; border: 1px solid Cyan; padding: 20px; margin-left: 150px; float: left; text-align:center; width: 50%;">
+        <a href="Opisy/Programowanie w języku C.pdf" title="Opis języka 'C'" target="_blank">Krótki przewodnik po języku 'C'</a>
+        <br><br>
+        <a href="Opisy/Tablice języka C.pdf" title="Systematyka operacji w 'C'" target="_blank">Tablice języka C</a>
+      </div>
+
+      <br><br><br><br><br><br>
+      <h3 style="color:DarkBlue;">Pliki nagłówkowe, tzw. <i>headers</i></h3>
+      <p>Korzystając z plików nagłówkowych języka 'C' trzeba zdawać sobie sprawę ze źródła pochodzenia kompilatora, którymi głównymi dostawcami są <i>Borland</i> jak i <i>Microsoft</i>. Oznacza to, że: 
+      <br>
+      - określone tę samą nazwą pliki nagłówkowe dwóch firm, mogą zawierać inne funkcje, 
+      <br>
+      - pewnych funkcji, wydawałoby się, że podstawowych, może w ogóle nie być. 
+      <br><br>
+      Dlatego wyraźnie zaznaczam, że wyszczególnione poniżej pliki nagłówkowe i ich funkcje są dla <b>'Dev C++'</b>. Nie dziw się także jak zauważysz definicję jednej i tej samej funkcji w dwóch oddzielnych plikach nagłówkowych. Jakkolwiek by na to nie patrzeć, poniższe linki mogą być traktowane jak źródło referencji, czyli po prostu podgląd lub dosłownie... ściąga.
+      </p>
+
+      <div style="background: wheat; border: 1px solid tan; margin-left: 120px; float: left; text-align:left; width: 60%;">
+        <div style="float:left;text-align:left;width:30%;">
+          <ul style="list-style-type:circle;">
+            <li><a href="Headers/stdio.pdf" title="Standardowy plik nagłówkowy wejścia i wyjścia" target="_blank">stdio.h</a></li>
+            <li><a href="Headers/string.pdf" title="Operacje na łańcuchach znakowych" target="_blank">string.h</a></li>
+            <li><a href="Headers/conio.pdf" title="Operacje wejścia i wyjścia dla konsoli (klawiatury i ekranu)" target="_blank">conio.h</a></li>
+            <li><a href="Headers/stdlib.pdf" title="Funkcje biblioteki standardowej" target="_blank">stdlib.h</a></li>
+            <li><a href="Headers/math.pdf" title="Stałe i funkcje matematyczne" target="_blank">math.h</a></li>
+            <li><a href="Headers/ctype.pdf" title="Operacje na pojedynczych znakach" target="_blank">ctype.h</a></li>
+            <li><a href="Headers/time.pdf" title="Funkcje daty i czasu" target="_blank">time.h</a></li>
+          </ul>
+        </div>
+
+        <div style="float:right;text-align:left;width:30%;">
+          <ul style="list-style-type:circle;">
+            <li><a href="Headers/locale.pdf" title="Zmiana ustawień na krajowe (czcionka, data, czas ...)" target="_blank">locale.h</a></li>
+            <li><a href="Headers/stdarg.pdf" title="Makra przesyłania do jednej funkcji zmiennej liczby argumentów różnych typów" target="_blank">stdarg.h</a></li>
+            <li><a href="Headers/limits.pdf" title="Liczbowe ograniczenia dla typów zmiennych" target="_blank">limits.h</a></li>
+            <li><a href="Headers/errno.pdf" title="Operacje obsługi błędów" target="_blank">errno.h</a></li>
+            <li><a href="Headers/assert.pdf" title="Funkcja makro dla testu niechcianych przypadków" target="_blank">assert.h</a></li>
+            <li><a href="Headers/signal.pdf" title="Funkcja przerwań wysyłanych przez system operacyjny" target="_blank">signal.h</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <br><br><br><br><br><br><br><br><br><br><br>
+
+      <div class="footer">
+         <a href="Stopka.pdf" target="_blank">Informacje dodatkowe</a>
+      </div>
+
+      <br><br>
+
+   </body>
+
+</html>

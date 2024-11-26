@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pl">
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="style.css">
+   <title>O mnie - Programowanie Artura Buczka</title>
+</head>
+
+   <body>
+
+      <div class="top">
+         <h1>O sobie</h1>
+      </div>
+
+      <div class="menu">
+         <a href="index.html">Strona g³ówna</a>
+      </div>
+
+
+      <h2>Od autora:</h2>
+
+      <p>Nazywam siê Artur Buczek. Jestem studentem Krakowskiej Akademii im. Andrzeja Frycza Modrzewskiego.
+      <br> Moje podstawowe zainteresowania obejmuj¹ bazy danych, jêzyk 'C' i python.</p>
+  
+
+      <div class="footer">
+         <a href="index.html">Strona g³ówna</a>
+      </div>
+
+  </body>
+
+</html>
