@@ -4,14 +4,9 @@
    <meta charset="utf-8">
    <link rel="stylesheet" href="style.css">
    <title>Programowanie w języku C i pliki nagłówkowe języka</title>
-   <link rel="stylesheet" href="edge://resources/css/md_colors.css">
-   <link rel="stylesheet" href="edge://resources/css/text_defaults_md.css">
-   <link rel="stylesheet" href="index.css">
    <meta name="Author" content="Artur Buczek">
    <meta name="Description" content="Programowanie w języku C przekazane w możliwie przyjazny sposób, bez jakichkolwiek niejasności, będącego wynikiem własnych doświadczeń i przemyśleń a nie powtarzaniu zdań innych osób.">
    <meta name="Keywords" content="Programowanie w C, Pliki nagłówkowe języka C, stdio.h, stdlib.h, string.h, math.h, limits.h, conio.h, ctype.h, errno.h, time.h">
-   <!-- Enable error-reporting -->	
-   <script src="pdf-error-reporting.js"></script>
    <style>
       a:link, a:visited { color: Blue; }
       a:hover, a:active { color: BlueViolet; text-decoration: none; font-size: 120%; }
