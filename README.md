@@ -1,24 +1,24 @@
 ## Drogi czytelniku
 
-Tu znajdziesz praktyczne podstawy języka C, przekazane w miarę systematycznie ale nieszablonowo. <br>
+Tu znajdziesz praktyczne podstawy języka C, przekazane w miarę systematycznie, ale nieszablonowo. <br>
 
-Jeżeli jesteś nowicjuszem lub mającym małe doświadczenie programistyczne, śpieszę poprawić Twój humor zdaniami znanych profesjonalistów: <br>
+Jeżeli jesteś nowicjuszem lub osobą mającą małe doświadczenie w programowaniu, możesz podnieść swoją samoocenę i samopoczucie,  poznając wypowiedzi programistów zajmujacych się szerzeniem wiedzy z tej dziedziny : <br>
 - 90% pracy programisty to ‘copy’ i ‘paste’ (w technologii *mainframe*: ‘cut’ i ‘paste’). <br>
   Nikt nie jest bowiem w stanie zapamiętać wszystkiego, więc najlepiej wykorzystać istniejące kody (a takie masz na tej stronie internetowej), aby je kopiować a później je zmieniać dostosowując je do swoich potrzeb. <br>
-- Wypowiedź o BAL (Basic Assembly Language): Posiada on ok. 120 komend ale każdy, nawet wybitny assamblerowiec w swoim życiu nie używa ich więcej niż 60. <br>
-  Nie potrzeba znać wszystkich komend i ich składni ponieważ osiągnięcie tego samego celu jest możliwe nie tylko jedną drogą, z pominięciem, wydawało by się, tych koniecznych instrukcji. <br>
-  Poza tym dużo instrukcji (komend) służy specyficznym celom, a z większością z nich nigdy nie będziesz się stykać, nawet zawodowo. <br>
+- Wypowiedź o BAL (Basic Assembly Language): Posiada on ok. 120 komend, ale wiekszość assamblerowców  nie używa ich więcej niż 60. <br>
+  Nie potrzeba znać wszystkich komend i ich składni, bowiem osiągnięcie tego samego celu jest możliwe nie tylko jedną drogą, z pominięciem, wydawało by się,  koniecznych instrukcji. <br>
+  Poza tym sporo instrukcji (komend) służy konkretnym celom i z większością z nich nigdy nie będziesz się stykać, nawet zawodowo. <br>
 
-Nie myśl, że sekcja ‘Tablice języka C’ wyczerpuje temat tego tablicowania, pomimo skopiowania do tego tematu wszystkiego co napotkałem w podręcznikach i Internecie. Przecież w tablicy ‘Znaki specjalne (escape characters)’ zestaw \ i [Enter] też tam powinien się znaleźć. Jeżeli jakiś znak nie da się wydrukować i ‘płata figle’, daj tuż przed nim \ . Właśnie po to jest ta strona internetowa aby Twój umysł był otwarty nie na sam język programowania, ale na jego filozofię. <br>
+Nie myśl, że sekcja ‘Tablice języka C’ wyczerpuje temat  tablicowania, pomimo przedstawienia w tym temacie znacznej ilości informacji, na które natknąłem się w podręcznikach i w sieci. W tablicy ‘Znaki specjalne (escape characters)’ zestaw \ i [Enter] też tam powinien się znaleźć. Jeżeli jakiś znak nie da się wydrukować i ‘płata figle’, daj tuż przed nim znak \ . Właśnie po to jest ta strona internetowa aby Twój umysł był otwarty nie na sam język programowania, ale na jego filozofię. <br>
 
-W sekcji ‘Informacje Dodatkowe’ na samym dole tej strony internetowej znajdziesz zestaw książek, które ja mam na swojej półce. Nie każdy z Was ma dostęp do tych książek więc przeszukałem Internet aby znaleźć bezpieczne linki, dające od razu dostęp do pełnej treści, możliwie najnowszych wersji książki o bardzo dobrym wyglądzie do czytania. Nie wypowiadam się na temat ich treści wierząc, że będziesz mieć swoją własną opinię, a to jest tu najważniejsze. Oto wyniki: <br>
+W sekcji ‘Informacje Dodatkowe’ na samym dole tej strony internetowej znajdziesz spis książek, które posiadam i z których korzystałem tworząc tę stronę internetową. Skoro nie każdy może mieć dostęp do nich, wyszukałem w Internecie bezpieczne linki, dające od razu dostęp do ich treści, z reguły w najnowszych wersjach, o zachowanym wyglądzie tekstu i obejmujących całe podręczniki a nie tylko wybrane ich części. Nie wypowiadam się na temat ich treści wierząc, że będziesz mieć swoją własną opinię, a to jest tu najważniejsze. Oto wyniki: <br>
 
 #### Trzy najważniejsze pozycje, przede wszystkim dlatego, że mogą służyć jako przewodniki i referencje:
-
+	
 1. [Turbo C++, Version 3.0 User's Guide; Borland International, Inc. (1992)](https://archive.org/details/bitsavers_borlandturide1992_32222686/page/13/mode/2up) 
 
 2. [Brian W. Kernighan, Dennis M. Ritche: The C Programming Language; Second Edition; Prentice Hall Software Series (1988)](https://venkivasamsetti.github.io/ebookworm.github.io/Books/cse/C%20Programming%20Language%20(2nd%20Edition).pdf) 
-albo <br> [tutaj](https://github.com/media-lib/c_lib/blob/master/c/Kernighan%2C%20Ritchie%20-%20The%20C%20Programming%20Language%2C%202nd%20edition.pdf) 
+albo [tutaj](https://github.com/media-lib/c_lib/blob/master/c/Kernighan%2C%20Ritchie%20-%20The%20C%20Programming%20Language%2C%202nd%20edition.pdf) 
 
 3. [Rationale for International Standard – Programming Languages - C](https://www.open-std.org/JTC1/SC22/WG14/www/C99RationaleV5.10.pdf)
 
@@ -47,9 +47,9 @@ albo <br> [tutaj](https://github.com/media-lib/c_lib/blob/master/c/Kernighan%2C%
 
 11. [Yashavant Kanetkar: Let Us C](http://pdvpmtasgaon.edu.in/uploads/dptcomputer/Let%20us%20c%20-%20yashwantkanetkar.pdf)
 albo
-[Ta same wersja](https://drive.google.com/file/d/0B_MYr_mKaDLuMDAyOGFkYzMtMjg4My00YjY3LWJjNzEtMWMzODQyZjNhZTJj/view?resourcekey=0-378U_IHsqHaA82lDRJxYow)
+[Ta sama wersja](https://drive.google.com/file/d/0B_MYr_mKaDLuMDAyOGFkYzMtMjg4My00YjY3LWJjNzEtMWMzODQyZjNhZTJj/view?resourcekey=0-378U_IHsqHaA82lDRJxYow)
 albo
-[Ta sama wersja](https://github.com/rah00l/c_language/blob/master/Let%20us%20C%20by%20Yashwant%20Kanetkar.pdf)
+[Też ta sama wersja](https://github.com/rah00l/c_language/blob/master/Let%20us%20C%20by%20Yashwant%20Kanetkar.pdf)
 
 12. [Brian W. Kernighan and Rob Pike: The UNIX Programming Environment](https://github.com/tcd/tupe/blob/master/the-unix-programming-environment-kernighan-pike.pdf)
 
