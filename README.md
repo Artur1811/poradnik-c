@@ -5,7 +5,7 @@ Tu znajdziesz praktyczne podstawy języka C, przekazane w miarę systematycznie,
 Jeżeli jesteś nowicjuszem lub osobą mającą małe doświadczenie w programowaniu, możesz podnieść swoją samoocenę poznając wypowiedzi programistów zajmujacych się szerzeniem wiedzy z tej dziedziny : <br>
 - 90% pracy programisty to "kopiuj i wklej" (‘copy’ i ‘paste’). <br>
   Nikt nie jest bowiem w stanie zapamiętać wszystkiego, więc najlepiej wykorzystać istniejące kody (a takie masz na tej stronie internetowej), aby je kopiować a później je zmieniać dostosowując je do swoich potrzeb. <br>
-- Basic Assembly Language: Posiada on ok. 120 komend, ale wiekszość assamblerowców  nie używa ich więcej niż 60. <br>
+- Basic Assembly Language: Posiada on ok. 120 komend, ale większość assamblerowców  nie używa ich więcej niż 60. <br>
   Nie potrzeba znać wszystkich komend i ich składni, bowiem osiągnięcie tego samego celu jest możliwe nie tylko jedną drogą, z pominięciem, wydawało by się,  koniecznych instrukcji. <br>
   Poza tym sporo instrukcji (komend) służy konkretnym celom i z większością z nich nigdy nie będziesz się stykać, nawet zawodowo. <br>
 
